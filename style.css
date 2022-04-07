@@ -1,0 +1,27 @@
+.card {
+  background: lightgray;
+  color: lightslategray;
+  margin: 1em;
+  width: 10em;
+  padding: 0.5em;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightslategrey;
+  align-items: center;
+}
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  gap: 2em;
+}
